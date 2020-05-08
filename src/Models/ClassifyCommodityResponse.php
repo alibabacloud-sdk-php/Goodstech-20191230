@@ -2,12 +2,12 @@
 
 // This file is auto-generated, don't edit it. Thanks.
 
-namespace AlibabaCloud\SDK\Goodstech\V20191230\Goodstech;
+namespace AlibabaCloud\SDK\Goodstech\V20191230\Models;
 
-use AlibabaCloud\SDK\Goodstech\V20191230\Goodstech\RecognizeFurnitureSpuResponse\data;
+use AlibabaCloud\SDK\Goodstech\V20191230\Models\ClassifyCommodityResponse\data;
 use AlibabaCloud\Tea\Model;
 
-class RecognizeFurnitureSpuResponse extends Model
+class ClassifyCommodityResponse extends Model
 {
     /**
      * @description requestId
@@ -19,7 +19,7 @@ class RecognizeFurnitureSpuResponse extends Model
     /**
      * @description data
      *
-     * @var RecognizeFurnitureSpuResponse.data
+     * @var ClassifyCommodityResponse.data
      */
     public $data;
     protected $_name = [
@@ -45,7 +45,7 @@ class RecognizeFurnitureSpuResponse extends Model
     /**
      * @param array $map
      *
-     * @return RecognizeFurnitureSpuResponse
+     * @return ClassifyCommodityResponse
      */
     public static function fromMap($map = [])
     {
@@ -54,7 +54,7 @@ class RecognizeFurnitureSpuResponse extends Model
             $model->requestId = $map['RequestId'];
         }
         if (isset($map['Data'])) {
-            $model->data = RecognizeFurnitureSpuResponse\data::fromMap($map['Data']);
+            $model->data = data::fromMap($map['Data']);
         }
 
         return $model;

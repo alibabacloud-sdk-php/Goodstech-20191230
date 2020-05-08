@@ -2,7 +2,7 @@
 
 // This file is auto-generated, don't edit it. Thanks.
 
-namespace AlibabaCloud\SDK\Goodstech\V20191230\Goodstech\RecognizeFurnitureSpuResponse;
+namespace AlibabaCloud\SDK\Goodstech\V20191230\Models\RecognizeFurnitureSpuResponse;
 
 use AlibabaCloud\Tea\Model;
 

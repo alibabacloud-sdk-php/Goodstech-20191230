@@ -2,7 +2,7 @@
 
 // This file is auto-generated, don't edit it. Thanks.
 
-namespace AlibabaCloud\SDK\Goodstech\V20191230\Goodstech\ClassifyCommodityResponse\data;
+namespace AlibabaCloud\SDK\Goodstech\V20191230\Models\ClassifyCommodityResponse\data;
 
 use AlibabaCloud\Tea\Model;
 

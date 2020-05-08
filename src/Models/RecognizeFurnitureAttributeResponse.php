@@ -2,9 +2,9 @@
 
 // This file is auto-generated, don't edit it. Thanks.
 
-namespace AlibabaCloud\SDK\Goodstech\V20191230\Goodstech;
+namespace AlibabaCloud\SDK\Goodstech\V20191230\Models;
 
-use AlibabaCloud\SDK\Goodstech\V20191230\Goodstech\RecognizeFurnitureAttributeResponse\data;
+use AlibabaCloud\SDK\Goodstech\V20191230\Models\RecognizeFurnitureAttributeResponse\data;
 use AlibabaCloud\Tea\Model;
 
 class RecognizeFurnitureAttributeResponse extends Model
@@ -54,7 +54,7 @@ class RecognizeFurnitureAttributeResponse extends Model
             $model->requestId = $map['RequestId'];
         }
         if (isset($map['Data'])) {
-            $model->data = RecognizeFurnitureAttributeResponse\data::fromMap($map['Data']);
+            $model->data = data::fromMap($map['Data']);
         }
 
         return $model;

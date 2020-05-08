@@ -2,8 +2,9 @@
 
 // This file is auto-generated, don't edit it. Thanks.
 
-namespace AlibabaCloud\SDK\Goodstech\V20191230\Goodstech\ClassifyCommodityResponse;
+namespace AlibabaCloud\SDK\Goodstech\V20191230\Models\ClassifyCommodityResponse;
 
+use AlibabaCloud\SDK\Goodstech\V20191230\Models\ClassifyCommodityResponse\data\categories;
 use AlibabaCloud\Tea\Model;
 
 class data extends Model
@@ -50,7 +51,7 @@ class data extends Model
                 $model->categories = [];
                 $n                 = 0;
                 foreach ($map['Categories'] as $item) {
-                    $model->categories[$n++] = null !== $item ? ClassifyCommodityResponse\data\categories::fromMap($item) : $item;
+                    $model->categories[$n++] = null !== $item ? categories::fromMap($item) : $item;
                 }
             }
         }

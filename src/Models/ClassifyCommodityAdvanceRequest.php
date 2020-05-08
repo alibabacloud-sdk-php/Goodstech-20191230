@@ -2,11 +2,11 @@
 
 // This file is auto-generated, don't edit it. Thanks.
 
-namespace AlibabaCloud\SDK\Goodstech\V20191230\Goodstech;
+namespace AlibabaCloud\SDK\Goodstech\V20191230\Models;
 
 use AlibabaCloud\Tea\Model;
 
-class RecognizeFurnitureAttributeAdvanceRequest extends Model
+class ClassifyCommodityAdvanceRequest extends Model
 {
     /**
      * @description ImageURLObject
@@ -34,7 +34,7 @@ class RecognizeFurnitureAttributeAdvanceRequest extends Model
     /**
      * @param array $map
      *
-     * @return RecognizeFurnitureAttributeAdvanceRequest
+     * @return ClassifyCommodityAdvanceRequest
      */
     public static function fromMap($map = [])
     {
